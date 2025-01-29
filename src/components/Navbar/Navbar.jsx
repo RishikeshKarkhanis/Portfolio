@@ -1,10 +1,10 @@
-import "./Navbar.css";
+import "./Navbar.css"
 
 function Navbar() {
   return (
     <div className="Navbar">
-        <h1>Rishikesh K.</h1>
-        <button></button>
+      <button className="title">Rishikesh K.</button>
+      <button className="options">=</button>
     </div>
   );
 }
