@@ -1,0 +1,10 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(/public/font/Akaya_Kanadaka/AkayaKanadaka-Regular.ttf);
+}
+
+*{
+  margin-top: 0px;
+  margin-left: 0px;
+  font-family: myFirstFont;
+}
