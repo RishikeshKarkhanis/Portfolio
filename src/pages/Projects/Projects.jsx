@@ -41,7 +41,7 @@ function App() {
           <div className="project">
             <div className="lefthalf">
               <p className="pname">Portfolio</p>
-              <a href="https://github.com/RishikeshKarkhanis/Portfolio">Github</a>
+              <a href="https://rishikeshkarkhanis.github.io/Portfolio/#/">Github</a>
               <a href="">Live Link</a>
             </div>
             <div className="righthalf">
@@ -78,7 +78,7 @@ function App() {
             <img src="Project Image" alt="Project Image" srcSet={pf} />
             <div className="buttonPanel">
               <a href="https://github.com/RishikeshKarkhanis/Portfolio">Github</a>
-              <a href="https://micro-url-ishy.onrender.com">Live Link</a>
+              <a href="https://rishikeshkarkhanis.github.io/Portfolio/#/">Live Link</a>
             </div>
           </div>
 
