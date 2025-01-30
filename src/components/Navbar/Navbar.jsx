@@ -21,11 +21,11 @@ function Navbar() {
       <div className="dropdownContainer">
         <div className="dropdown">
           <ul className="dropdown_list">
-            <li><a href="/Portfolio/">Home</a></li>
-            <li><a href="/Portfolio/about">About</a></li>
-            <li><a href="/Portfolio/projects">Projects</a></li>
-            <li><a href="/Portfolio/social_links">Social Links</a></li>
-            <li><a href="/Portfolio/contacts">Contact</a></li>
+            <li><a href="/Portfolio/#">Home</a></li>
+            <li><a href="/Portfolio/#about">About</a></li>
+            <li><a href="/Portfolio/#projects">Projects</a></li>
+            <li><a href="/Portfolio/#social_links">Social Links</a></li>
+            <li><a href="/Portfolio/#contacts">Contact</a></li>
           </ul>
         </div>
       </div>
