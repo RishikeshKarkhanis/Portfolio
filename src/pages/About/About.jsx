@@ -16,8 +16,8 @@ function App() {
       </div>
 
       <footer>
-        <a href="/">Back</a>
-        <a href="/projects">Next</a>
+        <a href="/Portfolio/">Back</a>
+        <a href="/Portfolio/projects">Next</a>
       </footer>
 
     </div>

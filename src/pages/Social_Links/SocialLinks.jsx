@@ -21,8 +21,8 @@ function App() {
       </div>
 
       <footer>
-        <a href="/projects">Back</a>
-        <a href="/contacts">Next</a>
+        <a href="/Portfolio/projects">Back</a>
+        <a href="/Portfolio/contacts">Next</a>
       </footer>
 
     </div>

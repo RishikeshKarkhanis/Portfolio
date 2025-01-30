@@ -16,7 +16,7 @@ function App() {
       </div>
 
       <footer>
-        <a href="/about">Next</a>
+        <a href="/Portfolio/about">Next</a>
       </footer>
     </div>
   );
