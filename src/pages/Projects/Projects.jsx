@@ -1,6 +1,10 @@
 import './Projects.css';
 import Navbar from '../../components/Navbar/Navbar';
 import { useEffect } from "react";
+import mu from "../../../public/images/MicroURL.png";
+import td from "../../../public/images/TaskDone.png";
+import pf from "../../../public/images/Portfolio.png";
+
 
 function App() {
   return (
@@ -19,7 +23,7 @@ function App() {
               <a href="https://micro-url-ishy.onrender.com">Live Link</a>
             </div>
             <div className="righthalf">
-              <img className='projectImg' src="Project Image" alt="ProjectImage" srcset="/images/MicroURL.png" />
+              <img className='projectImg' src="Project Image" alt="ProjectImage" srcset={mu} />
             </div>
           </div>
 
@@ -30,7 +34,7 @@ function App() {
               <a href="https://todo-app-dnje.onrender.com">Live Link</a>
             </div>
             <div className="righthalf">
-              <img className='projectImg' src="Project Image" alt="ProjectImage" srcset="/images/TaskDone.png" />
+              <img className='projectImg' src="Project Image" alt="ProjectImage" srcset={td} />
             </div>
           </div>
 
@@ -41,7 +45,7 @@ function App() {
               <a href="">Live Link</a>
             </div>
             <div className="righthalf">
-              <img className='projectImg' src="Project Image" alt="ProjectImage" srcset="/images/Portfolio.png" />
+              <img className='projectImg' src="Project Image" alt="ProjectImage" srcset={pf} />
             </div>
           </div>
 
@@ -53,7 +57,7 @@ function App() {
 
           <div className="projectMobile">
             <p className="pname">Micro-URL</p>
-            <img src="Project Image" alt="Project Image" srcSet="/images/MicroURL.png" />
+            <img src="Project Image" alt="Project Image" srcSet={mu} />
             <div className="buttonPanel">
               <a href="https://github.com/RishikeshKarkhanis/Micro-URL">Github</a>
               <a href="https://micro-url-ishy.onrender.com">Live Link</a>
@@ -62,7 +66,7 @@ function App() {
 
           <div className="projectMobile">
             <p className="pname">TaskDone</p>
-            <img src="Project Image" alt="Project Image" srcSet="/images/TaskDone.png" />
+            <img src="Project Image" alt="Project Image" srcSet={td} />
             <div className="buttonPanel">
               <a href="https://github.com/RishikeshKarkhanis/task-done">Github</a>
               <a href="https://todo-app-dnje.onrender.com">Live Link</a>
@@ -71,7 +75,7 @@ function App() {
 
           <div className="projectMobile">
             <p className="pname">Portfolio</p>
-            <img src="Project Image" alt="Project Image" srcSet="/images/Portfolio.png" />
+            <img src="Project Image" alt="Project Image" srcSet={pf} />
             <div className="buttonPanel">
               <a href="https://github.com/RishikeshKarkhanis/Portfolio">Github</a>
               <a href="https://micro-url-ishy.onrender.com">Live Link</a>
