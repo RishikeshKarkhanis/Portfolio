@@ -7,7 +7,7 @@ function App() {
       <Navbar></Navbar>
 
       <div className="contentPage">
-        <h1>Social Links</h1>
+        <h1>Profiles</h1>
 
         <div className="rootContainer">
           <div className="gridContainer">
