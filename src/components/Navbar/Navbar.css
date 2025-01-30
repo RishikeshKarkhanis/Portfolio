@@ -18,3 +18,32 @@
     background: none;
     cursor: pointer;
 }
+
+.dropdownContainer {
+    position: absolute;
+    /* background-color: aquamarine; */
+    width: 100vw;
+    display: none;
+    /* display: flex; */
+    justify-content: right;
+    margin-top: -25px;
+    /* padding-right: 50px; */
+}
+
+.dropdown {
+    background-color: white;
+    width: 130px;
+    padding-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+}
+
+.dropdown ul {
+    list-style-type: none;
+}
+
+.dropdown ul li a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
