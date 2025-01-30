@@ -29,6 +29,8 @@
 
 .projectContainer {
   background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
   border-radius: 10px;
   width: 80%;
   overflow-y: scroll;
@@ -37,52 +39,6 @@
   padding-left: 5px;
   padding-right: 5px;
 }
-
-
-/* Media Query Starts */
-
-@media screen and (min-width: 800px) {
-
-  .projectContainer .project {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.1);
-    padding-left: 5px;
-    border-radius: 10px;
-    padding-right: 5px;
-    margin-bottom: 5px;
-  }
-
-  .projectContainer .project .lefthalf {
-    width: 50%;
-  }
-
-  .projectContainer .project .lefthalf a {
-    text-decoration: none;
-    background-color: #48A9A6;
-    text-align: center;
-    font-size: 12px;
-    color: white;
-    border-radius: 3px;
-    margin-left: 5px;
-    padding: 5px;
-
-  }
-
-  .projectContainer .project .righthalf {
-    width: 50%;
-  }
-
-  .projectContainer .project .righthalf .projectImg {
-    border-radius: 10px;
-    height: 200px;
-    width: 300px;
-  }
-}
-
-/* Media Query Ends */
 
 .projectContainer .project {
   display: flex;
@@ -97,7 +53,6 @@
 }
 
 .projectContainer .project .lefthalf {
-  /* background-color: aqua; */
   width: 50%;
 }
 
@@ -114,7 +69,6 @@
 }
 
 .projectContainer .project .righthalf {
-  /* background-color: aquamarine; */
   width: 50%;
 }
 
@@ -124,6 +78,73 @@
   width: 300px;
 }
 
+
+.projectContainerMobile {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 80%;
+  display: var(--mobile);
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  overflow-y: scroll;
+  height: 400px;
+  padding-top: 10px;
+
+}
+
+.projectMobile {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 90%;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+}
+
+.projectMobile .pname {
+  font-size: 25px;
+}
+
+.projectMobile a {
+    text-decoration: none;
+    background-color: #48A9A6;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    border-radius: 3px;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.projectMobile img {
+  border-radius: 10px;
+  height:150px;
+  width: 250px;
+}
+
+@media screen and (max-width: 800px) {
+  .projectContainerMobile {
+    display: flex;
+  }
+  .projectContainer {
+    display: none;
+  }
+  .projectContainer .project {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .projectContainerMobile {
+    display: none;
+  }
+  .projectContainer {
+    display: flex;
+  }
+  .projectContainer .project {
+    display: flex;
+  }
+}
 
 footer {
   /* background-color: aquamarine; */

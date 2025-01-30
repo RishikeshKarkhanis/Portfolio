@@ -1,5 +1,6 @@
 import './Projects.css';
 import Navbar from '../../components/Navbar/Navbar';
+import { useEffect } from "react";
 
 function App() {
   return (
@@ -8,7 +9,8 @@ function App() {
 
       <div className="contentPage">
         <h1>Projects</h1>
-        <div className="projectContainer">
+
+        <div className="projectContainer" id='pc'>
 
           <div className="project">
             <div className="lefthalf">
@@ -40,6 +42,39 @@ function App() {
             </div>
             <div className="righthalf">
               <img className='projectImg' src="Project Image" alt="ProjectImage" srcset="/public/images/Portfolio.png" />
+            </div>
+          </div>
+
+        </div>
+
+        {/* Project Container Mobile Starts */}
+
+        <div className="projectContainerMobile" id='mobile'>
+
+          <div className="projectMobile">
+            <p className="pname">Micro-URL</p>
+            <img src="Project Image" alt="Project Image" srcset="/public/images/MicroURL.png" />
+            <div className="buttonPanel">
+              <a href="https://github.com/RishikeshKarkhanis/Micro-URL">Github</a>
+              <a href="https://micro-url-ishy.onrender.com">Live Link</a>
+            </div>
+          </div>
+
+          <div className="projectMobile">
+            <p className="pname">TaskDone</p>
+            <img src="Project Image" alt="Project Image" srcset="/public/images/TaskDone.png" />
+            <div className="buttonPanel">
+              <a href="https://github.com/RishikeshKarkhanis/task-doneL">Github</a>
+              <a href="https://todo-app-dnje.onrender.com">Live Link</a>
+            </div>
+          </div>
+
+          <div className="projectMobile">
+            <p className="pname">Portfolio</p>
+            <img src="Project Image" alt="Project Image" srcset="/public/images/Portfolio.png" />
+            <div className="buttonPanel">
+              <a href="https://github.com/RishikeshKarkhanis/Micro-URL">Github</a>
+              <a href="https://micro-url-ishy.onrender.com">Live Link</a>
             </div>
           </div>
 
