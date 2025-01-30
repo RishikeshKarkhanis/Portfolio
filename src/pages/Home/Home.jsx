@@ -9,7 +9,7 @@ function App() {
       <div className="contentPage">
         <img src="ProfilePicture" alt="Rishikesh Karkhanis" srcset="/public/images/linkedin_profile.png" />
         <div className="desc">
-          <h1>I'm "Rishikesh Karkhanis"</h1>
+          <h1 className='nametag'>I'm "Rishikesh Karkhanis"</h1>
           <p>Student @ Acropolis Institute Of Technology & Research, Indore</p>
           <p>Pursuing B-Tech (CSE-AIML)</p>
         </div>

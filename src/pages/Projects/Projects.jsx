@@ -37,7 +37,7 @@ function App() {
           <div className="project">
             <div className="lefthalf">
               <p className="pname">Portfolio</p>
-              <a href="https://github.com/RishikeshKarkhanis/Micro-URL">Github</a>
+              <a href="https://github.com/RishikeshKarkhanis/Portfolio">Github</a>
               <a href="">Live Link</a>
             </div>
             <div className="righthalf">
@@ -64,7 +64,7 @@ function App() {
             <p className="pname">TaskDone</p>
             <img src="Project Image" alt="Project Image" srcset="/public/images/TaskDone.png" />
             <div className="buttonPanel">
-              <a href="https://github.com/RishikeshKarkhanis/task-doneL">Github</a>
+              <a href="https://github.com/RishikeshKarkhanis/task-done">Github</a>
               <a href="https://todo-app-dnje.onrender.com">Live Link</a>
             </div>
           </div>
@@ -73,7 +73,7 @@ function App() {
             <p className="pname">Portfolio</p>
             <img src="Project Image" alt="Project Image" srcset="/public/images/Portfolio.png" />
             <div className="buttonPanel">
-              <a href="https://github.com/RishikeshKarkhanis/Micro-URL">Github</a>
+              <a href="https://github.com/RishikeshKarkhanis/Portfolio">Github</a>
               <a href="https://micro-url-ishy.onrender.com">Live Link</a>
             </div>
           </div>

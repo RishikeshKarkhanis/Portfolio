@@ -8,3 +8,73 @@
   margin-left: 0px;
   font-family: myFirstFont;
 }
+
+.contentPage {
+  margin-top: 50px;
+  /* background-color: aquamarine; */
+  width: 100vw;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.contactForm {
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 10px;
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+}
+
+.contactForm input {
+  font-size: 21px;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+}
+
+.contactForm textarea {
+  resize: none;
+  font-size: 21px;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+}
+
+.contactForm button {
+  background-color: #48A9A6;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+  border-radius: 6px;
+  font-size: 21px;
+  border: none;
+  color:white;
+  cursor: pointer;
+}
+
+footer {
+  /* background-color: aquamarine; */
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+footer a {
+  text-decoration: none;
+  background-color: #48A9A6;
+  text-align: center;
+  font-size: 21px;
+  color: white;
+  border-radius: 3px;
+  margin-left: 5px;
+  padding: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+}
