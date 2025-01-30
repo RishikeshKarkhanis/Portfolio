@@ -15,10 +15,10 @@ function App() {
 
         <div className="rootContainer">
           <div className="gridContainer">
-            <a className='logo' onClick={window.open("https://www.instagram.com/RishikeshKarkhanis")}><img src="Logo" alt="Logo" srcset={insta} /></a>
-            <a className='logo' href="https://www.linkedin.com/in/rishikeshkarkhanis0101"><img src="Logo" alt="Logo" srcset={linkedin} /></a>
-            <a className='logo' href="https://www.github.com/RishikeshKarkhanis"><img src="Logo" alt="Logo" srcset={github} /></a>
-            <a className='logo' href="https://x.com/RishikeshK0101"><img src="Logo" alt="Logo" srcset={twitter} /></a>
+            <a className='logo' href="https://www.instagram.com/RishikeshKarkhanis" target='_blank'><img src="Logo" alt="Logo" srcset={insta} /></a>
+            <a className='logo' href="https://www.linkedin.com/in/rishikeshkarkhanis0101" target='_blank'><img src="Logo" alt="Logo" srcset={linkedin} /></a>
+            <a className='logo' href="https://www.github.com/RishikeshKarkhanis" target='_blank'><img src="Logo" alt="Logo" srcset={github} /></a>
+            <a className='logo' href="https://x.com/RishikeshK0101" target='_blank'><img src="Logo" alt="Logo" srcset={twitter} /></a>
           </div>
         </div>
 
