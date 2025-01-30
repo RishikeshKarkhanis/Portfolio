@@ -3,8 +3,143 @@
   src: url(/public/font/Akaya_Kanadaka/AkayaKanadaka-Regular.ttf);
 }
 
-*{
+* {
   margin-top: 0px;
   margin-left: 0px;
   font-family: myFirstFont;
+}
+
+.contentPage {
+  margin-top: 50px;
+  /* background-color: aquamarine; */
+  width: 100vw;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.contentPage img {
+  width: 250px;
+  height: 250px;
+  border-radius: 360px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+}
+
+.projectContainer {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 80%;
+  overflow-y: scroll;
+  height: 420px;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+/* Media Query Starts */
+
+@media screen and (min-width: 800px) {
+
+  .projectContainer .project {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-left: 5px;
+    border-radius: 10px;
+    padding-right: 5px;
+    margin-bottom: 5px;
+  }
+
+  .projectContainer .project .lefthalf {
+    width: 50%;
+  }
+
+  .projectContainer .project .lefthalf a {
+    text-decoration: none;
+    background-color: #48A9A6;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    border-radius: 3px;
+    margin-left: 5px;
+    padding: 5px;
+
+  }
+
+  .projectContainer .project .righthalf {
+    width: 50%;
+  }
+
+  .projectContainer .project .righthalf .projectImg {
+    border-radius: 10px;
+    height: 200px;
+    width: 300px;
+  }
+}
+
+/* Media Query Ends */
+
+.projectContainer .project {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding-left: 5px;
+  border-radius: 10px;
+  padding-right: 5px;
+  margin-bottom: 5px;
+}
+
+.projectContainer .project .lefthalf {
+  /* background-color: aqua; */
+  width: 50%;
+}
+
+.projectContainer .project .lefthalf a {
+  text-decoration: none;
+  background-color: #48A9A6;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  border-radius: 3px;
+  margin-left: 5px;
+  padding: 5px;
+
+}
+
+.projectContainer .project .righthalf {
+  /* background-color: aquamarine; */
+  width: 50%;
+}
+
+.projectContainer .project .righthalf .projectImg {
+  border-radius: 10px;
+  height: 200px;
+  width: 300px;
+}
+
+
+footer {
+  /* background-color: aquamarine; */
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+
+footer a {
+  text-decoration: none;
+  background-color: #48A9A6;
+  text-align: center;
+  font-size: 21px;
+  color: white;
+  border-radius: 3px;
+  margin-left: 5px;
+  padding: 5px;
 }
