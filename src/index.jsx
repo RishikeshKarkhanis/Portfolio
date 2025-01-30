@@ -13,7 +13,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename='/Portfolio/'>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

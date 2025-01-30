@@ -11,10 +11,10 @@ function App() {
 
         <div className="rootContainer">
           <div className="gridContainer">
-            <a className='logo' href="https:/www.instagram.com/RishikeshKarkhanis"><img src="Logo" alt="Logo" srcset="/public/images/instagram.png" /></a>
-            <a className='logo' href="https:/www.linkedin.com/in/rishikeshkarkhanis0101"><img src="Logo" alt="Logo" srcset="/public/images/linkedin.png" /></a>
-            <a className='logo' href="https:/www.github.com/RishikeshKarkhanis"><img src="Logo" alt="Logo" srcset="/public/images/github.png" /></a>
-            <a className='logo' href="https://x.com/RishikeshK0101"><img src="Logo" alt="Logo" srcset="/public/images/twitter.png" /></a>
+            <a className='logo' href="https:/www.instagram.com/RishikeshKarkhanis"><img src="Logo" alt="Logo" srcset="/images/instagram.png" /></a>
+            <a className='logo' href="https:/www.linkedin.com/in/rishikeshkarkhanis0101"><img src="Logo" alt="Logo" srcset="/images/linkedin.png" /></a>
+            <a className='logo' href="https:/www.github.com/RishikeshKarkhanis"><img src="Logo" alt="Logo" srcset="/images/github.png" /></a>
+            <a className='logo' href="https://x.com/RishikeshK0101"><img src="Logo" alt="Logo" srcset="/images/twitter.png" /></a>
           </div>
         </div>
 

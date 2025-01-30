@@ -7,7 +7,7 @@ function App() {
       <Navbar></Navbar>
 
       <div className="contentPage">
-        <img src="ProfilePicture" alt="Rishikesh Karkhanis" srcset="/public/images/linkedin_profile.png" />
+        <img src="ProfilePicture" alt="Rishikesh Karkhanis" srcset="/images/linkedin_profile.png" />
         <div className="desc">
           <h1 className='nametag'>I'm "Rishikesh Karkhanis"</h1>
           <p>Student @ Acropolis Institute Of Technology & Research, Indore</p>
