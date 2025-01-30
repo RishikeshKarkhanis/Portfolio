@@ -53,7 +53,7 @@ function App() {
 
           <div className="projectMobile">
             <p className="pname">Micro-URL</p>
-            <img src="Project Image" alt="Project Image" srcset="/public/images/MicroURL.png" />
+            <img src="Project Image" alt="Project Image" srcSet="/public/images/MicroURL.png" />
             <div className="buttonPanel">
               <a href="https://github.com/RishikeshKarkhanis/Micro-URL">Github</a>
               <a href="https://micro-url-ishy.onrender.com">Live Link</a>
@@ -62,7 +62,7 @@ function App() {
 
           <div className="projectMobile">
             <p className="pname">TaskDone</p>
-            <img src="Project Image" alt="Project Image" srcset="/public/images/TaskDone.png" />
+            <img src="Project Image" alt="Project Image" srcSet="/public/images/TaskDone.png" />
             <div className="buttonPanel">
               <a href="https://github.com/RishikeshKarkhanis/task-done">Github</a>
               <a href="https://todo-app-dnje.onrender.com">Live Link</a>
@@ -71,7 +71,7 @@ function App() {
 
           <div className="projectMobile">
             <p className="pname">Portfolio</p>
-            <img src="Project Image" alt="Project Image" srcset="/public/images/Portfolio.png" />
+            <img src="Project Image" alt="Project Image" srcSet="/public/images/Portfolio.png" />
             <div className="buttonPanel">
               <a href="https://github.com/RishikeshKarkhanis/Portfolio">Github</a>
               <a href="https://micro-url-ishy.onrender.com">Live Link</a>
