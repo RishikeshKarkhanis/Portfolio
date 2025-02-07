@@ -1,6 +1,5 @@
 import './Projects.css';
 import Navbar from '../../components/Navbar/Navbar';
-import { useEffect } from "react";
 import mu from "../../../public/images/MicroURL.png";
 import td from "../../../public/images/TaskDone.png";
 import pf from "../../../public/images/Portfolio.png";
