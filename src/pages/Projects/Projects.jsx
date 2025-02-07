@@ -41,8 +41,8 @@ function App() {
           <div className="project">
             <div className="lefthalf">
               <p className="pname">Portfolio</p>
-              <a href="https://rishikeshkarkhanis.github.io/Portfolio/#/">Github</a>
-              <a href="">Live Link</a>
+              <a href="https://github.com/RishikeshKarkhanis/Portfolio">Github</a>
+              <a href="https://rishikeshkarkhanis.github.io/Portfolio/#/">Live Link</a>
             </div>
             <div className="righthalf">
               <img className='projectImg' src="Project Image" alt="ProjectImage" srcset={pf} />
