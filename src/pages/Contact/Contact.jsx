@@ -19,9 +19,11 @@ function SendMail() {
   )
     .then((response) => {
       console.log("Email sent!", response);
+      alert("Email Sent!");
     })
     .catch((error) => {
       console.error("Error sending email:", error);
+      alert("Error Sending Email!");
     });
 }
 
