@@ -1,28 +1,30 @@
 import './Contact.css';
 import Navbar from '../../components/Navbar/Navbar';
+import emailjs from "@emailjs/browser";
 
 function SendMail() {
-  const email = import.meta.env.VITE_EMAIL;
-  const pass = import.meta.env.VITE_PASS;
+  const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+  const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+  const userId = import.meta.env.VITE_EMAILJS_USER_ID;
   const msg = document.getElementById('msg').value;
   const sender = document.getElementById('email').value;
 
-  console.log(email);
-  console.log(pass);
-  
-  
-    
-  Email.send({
-    Host: "smtp.gmail.com",
-    Username: email,
-    Password: pass,
-    To: 'rishikeshkarkhanis0101@gmail.com',
-    From: sender,
-    Subject: "Message From Portfolio",
-    Body: msg,
-  })
-    .then(function (message) {
-      alert("mail sent successfully")
+  emailjs.send(
+    import.meta.env.VITE_EMAILJS_SERVICE_ID,
+    import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+    {
+      from_name: sender,
+      to_name: "Rishikesh",
+      message: "Hello, this is a test email!",
+      reply_to: sender,
+    },
+    import.meta.env.VITE_EMAILJS_USER_ID
+  )
+    .then((response) => {
+      console.log("Email sent!", response);
+    })
+    .catch((error) => {
+      console.error("Error sending email:", error);
     });
 }
 
