@@ -15,7 +15,7 @@ function SendMail() {
     {
       from_name: sender,
       to_name: "Rishikesh",
-      message: "Hello, this is a test email!",
+      message: msg,
       reply_to: sender,
     },
     import.meta.env.VITE_EMAILJS_USER_ID
