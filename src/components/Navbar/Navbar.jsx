@@ -25,8 +25,8 @@ function Navbar() {
             <li><a href="/Portfolio/#/about">About</a></li>
             <li><a href="/Portfolio/#/projects">Projects</a></li>
             <li><a href="/Portfolio/#/social_links">Social Links</a></li>
-            <li><a href="/Portfolio/#/contacts">Contact</a></li>
             <li><a href="/Portfolio/#/skills">Skills</a></li>
+            <li><a href="/Portfolio/#/contacts">Contact</a></li>
           </ul>
         </div>
       </div>
