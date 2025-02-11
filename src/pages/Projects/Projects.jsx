@@ -3,7 +3,8 @@ import Navbar from '../../components/Navbar/Navbar';
 import mu from "../../../public/images/MicroURL.png";
 import td from "../../../public/images/TaskDone.png";
 import pf from "../../../public/images/Portfolio.png";
-
+import CardDesktop from '../../components/CardDesktop/CardDesktop';
+import CardMobile from '../../components/CardMobile/CardMobile';
 
 function App() {
   return (
@@ -15,38 +16,20 @@ function App() {
 
         <div className="projectContainer" id='pc'>
 
-          <div className="project">
-            <div className="lefthalf">
-              <p className="pname">Micro-URL</p>
-              <a href="https://github.com/RishikeshKarkhanis/Micro-URL">Github</a>
-              <a href="https://micro-url-ishy.onrender.com">Live Link</a>
-            </div>
-            <div className="righthalf">
-              <img className='projectImg' src="Project Image" alt="ProjectImage" srcset={mu} />
-            </div>
-          </div>
+          <CardDesktop
+            pname="Micro-URL" img={mu} gh="https://github.com/RishikeshKarkhanis/Micro-URL"
+            ll="https://micro-url-ishy.onrender.com">
+          </CardDesktop>
 
-          <div className="project">
-            <div className="lefthalf">
-              <p className="pname">Task-Done</p>
-              <a href="https://github.com/RishikeshKarkhanis/task-done">Github</a>
-              <a href="https://todo-app-dnje.onrender.com">Live Link</a>
-            </div>
-            <div className="righthalf">
-              <img className='projectImg' src="Project Image" alt="ProjectImage" srcset={td} />
-            </div>
-          </div>
+          <CardDesktop
+            pname="TaskDone" img={td} gh="https://github.com/RishikeshKarkhanis/task-done"
+            ll="https://todo-app-dnje.onrender.com">
+          </CardDesktop>
 
-          <div className="project">
-            <div className="lefthalf">
-              <p className="pname">Portfolio</p>
-              <a href="https://github.com/RishikeshKarkhanis/Portfolio">Github</a>
-              <a href="https://rishikeshkarkhanis.github.io/Portfolio/#/">Live Link</a>
-            </div>
-            <div className="righthalf">
-              <img className='projectImg' src="Project Image" alt="ProjectImage" srcset={pf} />
-            </div>
-          </div>
+          <CardDesktop
+            pname="Portfolio" img={pf} gh="https://github.com/RishikeshKarkhanis/Portfolio"
+            ll="https://rishikeshkarkhanis.github.io/Portfolio/#/">
+          </CardDesktop>
 
         </div>
 
@@ -54,32 +37,20 @@ function App() {
 
         <div className="projectContainerMobile" id='mobile'>
 
-          <div className="projectMobile">
-            <p className="pname">Micro-URL</p>
-            <img src="Project Image" alt="Project Image" srcSet={mu} />
-            <div className="buttonPanel">
-              <a href="https://github.com/RishikeshKarkhanis/Micro-URL">Github</a>
-              <a href="https://micro-url-ishy.onrender.com">Live Link</a>
-            </div>
-          </div>
+          <CardMobile
+            pname="Micro-URL" img={mu} gh="https://github.com/RishikeshKarkhanis/Micro-URL"
+            ll="https://micro-url-ishy.onrender.com">
+          </CardMobile>
 
-          <div className="projectMobile">
-            <p className="pname">TaskDone</p>
-            <img src="Project Image" alt="Project Image" srcSet={td} />
-            <div className="buttonPanel">
-              <a href="https://github.com/RishikeshKarkhanis/task-done">Github</a>
-              <a href="https://todo-app-dnje.onrender.com">Live Link</a>
-            </div>
-          </div>
+          <CardMobile
+            pname="TaskDone" img={td} gh="https://github.com/RishikeshKarkhanis/task-done"
+            ll="https://todo-app-dnje.onrender.com">
+          </CardMobile>
 
-          <div className="projectMobile">
-            <p className="pname">Portfolio</p>
-            <img src="Project Image" alt="Project Image" srcSet={pf} />
-            <div className="buttonPanel">
-              <a href="https://github.com/RishikeshKarkhanis/Portfolio">Github</a>
-              <a href="https://rishikeshkarkhanis.github.io/Portfolio/#/">Live Link</a>
-            </div>
-          </div>
+          <CardMobile
+            pname="Portfolio" img={pf} gh="https://github.com/RishikeshKarkhanis/Portfolio"
+            ll="https://rishikeshkarkhanis.github.io/Portfolio/#/">
+          </CardMobile>
 
         </div>
 
