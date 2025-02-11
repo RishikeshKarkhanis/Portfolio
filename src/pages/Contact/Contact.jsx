@@ -3,9 +3,6 @@ import Navbar from '../../components/Navbar/Navbar';
 import emailjs from "@emailjs/browser";
 
 function SendMail() {
-  const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
-  const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
-  const userId = import.meta.env.VITE_EMAILJS_USER_ID;
   const msg = document.getElementById('msg').value;
   const sender = document.getElementById('email').value;
 
