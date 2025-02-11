@@ -6,6 +6,7 @@ import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
 import Projects from './pages/Projects/Projects';
 import SocialLinks from './pages/Social_Links/SocialLinks';
+import Skills from "./pages/Skills/Skills";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 
@@ -20,7 +21,7 @@ root.render(
           <Route path="/contacts" element={<Contact />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/social_links" element={<SocialLinks />} />
-
+          <Route path="/skills" element={<Skills />} />
       </Routes>
     </Router>
   </React.StrictMode>

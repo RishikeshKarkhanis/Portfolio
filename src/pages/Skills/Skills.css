@@ -1,0 +1,48 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(/font/Akaya_Kanadaka/AkayaKanadaka-Regular.ttf);
+}
+
+*{
+  margin-top: 0px;
+  margin-left: 0px;
+  font-family: myFirstFont;
+}
+
+.rootContainer {
+  /* background-color: aquamarine; */
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.rootContainer .gridContainer {
+  /* background-color: aqua; */
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.rootContainer .gridContainer .logo_skill {
+  min-height: 100px;
+  min-width: 100px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 360px;
+  background-color: white;
+  text-align: center;
+  align-items: center;
+  
+  
+}
+
+.rootContainer .gridContainer .logo_skill :hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.rootContainer .gridContainer .logo_skill img {
+  height: 100px;
+  width: 100px;
+}
