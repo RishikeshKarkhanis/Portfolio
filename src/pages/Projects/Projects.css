@@ -27,6 +27,10 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
 }
 
+.contentPage h1 {
+  color: white;
+}
+
 .projectContainer {
   background-color: rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
@@ -59,7 +63,7 @@
 
 .projectContainer .project .lefthalf a {
   text-decoration: none;
-  background-color: #48A9A6;
+  background-color: #34e89e;
   text-align: center;
   font-size: 12px;
   color: white;
@@ -99,6 +103,7 @@
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   width: 90%;
+  color: white;
   padding-bottom: 10px;
   margin-bottom: 5px;
 }
@@ -109,7 +114,7 @@
 
 .projectMobile a {
     text-decoration: none;
-    background-color: #48A9A6;
+    background-color: #34e89e;
     text-align: center;
     font-size: 12px;
     color: white;
@@ -159,7 +164,7 @@ footer {
 
 footer a {
   text-decoration: none;
-  background-color: dodgerblue;
+  background-color:#34e89e;
   text-align: center;
   font-size: 21px;
   color: white;

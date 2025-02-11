@@ -51,7 +51,7 @@
 }
 
 .contactForm button {
-  background-color: #48A9A6;
+  background-color: #34e89e;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
   border-radius: 6px;
   font-size: 21px;
@@ -69,7 +69,7 @@ footer {
 
 footer a {
   text-decoration: none;
-  background-color: dodgerblue;
+  background-color: #34e89e;
   text-align: center;
   font-size: 21px;
   color: white;

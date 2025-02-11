@@ -11,12 +11,13 @@
 }
 
 .project .lefthalf {
+    color: white;
     width: 50%;
 }
 
 .project .lefthalf a {
     text-decoration: none;
-    background-color: #48A9A6;
+    background-color: #34e89e;
     text-align: center;
     font-size: 12px;
     color: white;
