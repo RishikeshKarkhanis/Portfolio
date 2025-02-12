@@ -36,28 +36,39 @@
 .contactForm input {
   font-size: 21px;
   border: none;
+  background-color: #3d4659;
+  color: white;
   border-radius: 6px;
   margin-bottom: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+  outline-color: #34e89e;
 }
 
 .contactForm textarea {
   resize: none;
   font-size: 21px;
+  background-color: #3d4659;
+  outline-color: #34e89e;
   border: none;
+  color: white;
   border-radius: 6px;
   margin-bottom: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
 }
 
 .contactForm button {
+  margin-top: 10px;
   background-color: #34e89e;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
   border-radius: 6px;
   font-size: 21px;
+  outline-color: #34e89e;
   border: none;
   color:white;
   cursor: pointer;
+}
+
+.contactForm button:hover {
+  box-shadow: 0 4px 8px 0 rgba(52, 232, 158, 0.2), 0 6px 20px 0 rgba(52, 232, 158, 0.01);
 }
 
 footer {
@@ -77,4 +88,8 @@ footer a {
   margin-left: 5px;
   padding: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+}
+
+footer a:hover {
+  box-shadow: 0 4px 8px 0 rgba(52, 232, 158, 0.2), 0 6px 20px 0 rgba(52, 232, 158, 0.01);
 }

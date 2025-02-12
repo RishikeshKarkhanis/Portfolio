@@ -6,3 +6,8 @@ body {
     /* background:linear-gradient(180deg, #ffffff, cornflowerblue); */
     background-attachment: fixed; /*edit*/
 }
+
+*::selection {
+    background-color: #34e89e;
+    color: white; /* Optional: Change text color */
+}
