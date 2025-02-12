@@ -5,6 +5,7 @@ import td from "../../../public/images/TaskDone.png";
 import pf from "../../../public/images/Portfolio.png";
 import npf from "../../../public/images/npf.png"
 import qr from "../../../public/images/qr.png"
+import mn from "../../../public/images/mn.png";
 import CardDesktop from '../../components/CardDesktop/CardDesktop';
 import CardMobile from '../../components/CardMobile/CardMobile';
 
@@ -28,16 +29,21 @@ function App() {
             ll="https://todo-app-dnje.onrender.com">
           </CardDesktop>
 
-          <CardDesktop
-            pname="Portfolio" img={npf} gh="https://github.com/RishikeshKarkhanis/Portfolio"
-            ll="https://rishikeshkarkhanis.github.io/Portfolio/#/">
-          </CardDesktop>
 
           <CardDesktop
             pname="QR Code Generator" img={qr} gh="https://github.com/RishikeshKarkhanis/QR-GEN"
             ll="">
           </CardDesktop>
 
+          <CardDesktop
+            pname="My-Note" img={mn} gh="https://github.com/RishikeshKarkhanis/my-note-backend"
+            ll="">
+          </CardDesktop>
+
+          <CardDesktop
+            pname="Portfolio" img={npf} gh="https://github.com/RishikeshKarkhanis/Portfolio"
+            ll="https://rishikeshkarkhanis.github.io/Portfolio/#/">
+          </CardDesktop>
         </div>
 
         {/* Project Container Mobile Starts */}
@@ -54,16 +60,21 @@ function App() {
             ll="https://todo-app-dnje.onrender.com">
           </CardMobile>
 
-          <CardMobile
-            pname="Portfolio" img={npf} gh="https://github.com/RishikeshKarkhanis/Portfolio"
-            ll="https://rishikeshkarkhanis.github.io/Portfolio/#/">
-          </CardMobile>
 
           <CardMobile
             pname="QR Code Generator" img={qr} gh="https://github.com/RishikeshKarkhanis/QR-GEN"
             ll="">
           </CardMobile>
 
+          <CardMobile
+            pname="My-Note" img={mn} gh="https://github.com/RishikeshKarkhanis/my-note-backend"
+            ll="">
+          </CardMobile>
+
+          <CardMobile
+            pname="Portfolio" img={npf} gh="https://github.com/RishikeshKarkhanis/Portfolio"
+            ll="https://rishikeshkarkhanis.github.io/Portfolio/#/">
+          </CardMobile>
         </div>
 
       </div>
