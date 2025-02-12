@@ -3,6 +3,7 @@ import Navbar from '../../components/Navbar/Navbar';
 import mu from "../../../public/images/MicroURL.png";
 import td from "../../../public/images/TaskDone.png";
 import pf from "../../../public/images/Portfolio.png";
+import npf from "../../../public/images/npf.png"
 import CardDesktop from '../../components/CardDesktop/CardDesktop';
 import CardMobile from '../../components/CardMobile/CardMobile';
 
@@ -27,7 +28,7 @@ function App() {
           </CardDesktop>
 
           <CardDesktop
-            pname="Portfolio" img={pf} gh="https://github.com/RishikeshKarkhanis/Portfolio"
+            pname="Portfolio" img={npf} gh="https://github.com/RishikeshKarkhanis/Portfolio"
             ll="https://rishikeshkarkhanis.github.io/Portfolio/#/">
           </CardDesktop>
 
@@ -48,7 +49,7 @@ function App() {
           </CardMobile>
 
           <CardMobile
-            pname="Portfolio" img={pf} gh="https://github.com/RishikeshKarkhanis/Portfolio"
+            pname="Portfolio" img={npf} gh="https://github.com/RishikeshKarkhanis/Portfolio"
             ll="https://rishikeshkarkhanis.github.io/Portfolio/#/">
           </CardMobile>
 
