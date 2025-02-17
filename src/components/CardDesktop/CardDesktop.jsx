@@ -6,6 +6,9 @@ function CardDesktop(props) {
             <div className="project">
                 <div className="lefthalf">
                     <p className="pname">{props.pname}</p>
+                    <div className="descContainer">
+                        <p className="desc">"{props.desc}"</p>
+                    </div>
                     <a href={props.gh}>Github</a>
                     <a href={props.ll}>Live Link</a>
                 </div>

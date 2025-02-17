@@ -87,7 +87,7 @@
 .projectContainerMobile {
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  width: 80%;
+  width: 95%;
   display: var(--mobile);
   flex-direction: column;
   text-align: center;

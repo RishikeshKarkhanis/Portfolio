@@ -13,6 +13,23 @@
 
 .project .lefthalf {
     color: white;
+    /* background-color: antiquewhite; */
+    width: 50%;
+}
+
+.project .lefthalf .pname{
+    color: #34e89e;
+    text-decoration: underline #34e89e;
+}
+
+.project .lefthalf .descContainer {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.project .lefthalf .descContainer .desc {
     width: 50%;
 }
 
