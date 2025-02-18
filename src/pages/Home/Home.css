@@ -49,6 +49,11 @@
   font-size: 30px;
 }
 
+.desc a {
+  color: #34e89e;
+  font-size: 21px;
+}
+
 
 footer {
   /* background-color: aquamarine; */
