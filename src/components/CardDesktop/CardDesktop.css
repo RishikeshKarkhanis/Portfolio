@@ -9,6 +9,7 @@
     border-radius: 10px;
     padding-right: 5px;
     margin-bottom: 5px;
+    padding-top: 5px;
 }
 
 .project .lefthalf {
@@ -53,4 +54,5 @@
     border-radius: 10px;
     height: 200px;
     width: 300px;
+
 }
