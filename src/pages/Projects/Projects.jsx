@@ -62,26 +62,26 @@ function App() {
           </CardMobile>
 
           <CardMobile
-            pname="TaskDone" desc="A URL shortener app that takes long URLs and converts them into shortened, shareable links."
+            pname="TaskDone" desc="A simple to-do app that allows users to create, update, and manage tasks with ease."
             img={td} gh="https://github.com/RishikeshKarkhanis/task-done"
             ll="https://todo-app-dnje.onrender.com">
           </CardMobile>
 
 
           <CardMobile
-            pname="QR Code Generator" desc="A URL shortener app that takes long URLs and converts them into shortened, shareable links."
+            pname="QR Code Generator" desc="A simple and efficient tool that allows users to generate QR codes from any text input."
             img={qr} gh="https://github.com/RishikeshKarkhanis/QR-GEN"
             ll="">
           </CardMobile>
 
           <CardMobile
-            pname="My-Note" desc="A URL shortener app that takes long URLs and converts them into shortened, shareable links."
+            pname="My-Note" desc="A note-taking app that enables multiple users to save and manage notes."
             img={mn} gh="https://github.com/RishikeshKarkhanis/my-note-backend"
             ll="">
           </CardMobile>
 
           <CardMobile
-            pname="Portfolio" desc="A URL shortener app that takes long URLs and converts them into shortened, shareable links."
+            pname="Portfolio" desc="A personal website showcasing my skills, projects, and achievements in full-stack development, AI/ML, and more."
             img={npf} gh="https://github.com/RishikeshKarkhanis/Portfolio"
             ll="https://rishikeshkarkhanis.github.io/Portfolio/#/">
           </CardMobile>
